@@ -1,0 +1,26 @@
+/*Alfredo Jirout Cid - UO288443*/
+/* Archivo de estilos CSS para el sitio web MotoGP-Desktop */
+
+/* Estilos generales 
+    #1f2231
+    #01dee6
+    #0d1321
+    #FAFD3A
+*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #01dee6;
+    color: #1f2231;
+}
+header{
+    /**El color de la fuente se hereda de la cascada**/
+    background-color: #0d1321;
+}
+h1{
+    /**El color de fondo se hereda de la cascada**/
+    color:#FAFD3A;
+}
+nav a{
+    /**El color de fondo se hereda de la cascada**/
+    color:#FAFD3A;
+}
