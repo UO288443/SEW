@@ -1,0 +1,127 @@
+/*Alfredo Jirout Cid - UO288443*/
+/* Archivo de estilos CSS para el sitio web MotoGP-Desktop */
+
+/* Estilos generales 
+    #1f2231
+    #01dee6
+    #0d1321
+    #FAFD3A
+*/
+/*
+    Especificidad 1
+*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #01dee6;
+    color: #1f2231;
+}
+/*
+    Especificidad 1
+*/
+header{
+    /**El color de la fuente se hereda de la cascada #1f2231**/
+    background-color: #0d1321;
+}
+
+/*
+    Especificidad 2
+*/
+header a{
+    /**El color de fondo se hereda de la cascada #01dee6**/
+    color:#FAFD3A;
+    text-decoration-line: none;
+}
+/*Especificidad 10*/
+.active{
+    /**El color de fondo se hereda de la cascada #0d1321 <header>**/
+    color:#FFFFFF;
+}
+/*
+    Especificidad 2
+*/
+header + p {
+    font-size: 0.9em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    border: 2px solid black;   
+    padding: 5px 10px;         
+    border-radius: 8px;       
+    display: inline-block;     
+}
+
+a[href^="http"] {
+    /*El color de fondo se hereda del Body*/
+    color: #1f2231;   
+    font-style: italic;
+    
+}
+a[href^="http"]:hover{
+    /*El color de fondo se hereda del Body*/
+    background-color: #0d1321;   
+    color:#FAFD3A;
+    text-decoration: none;
+    font-style: normal;
+}
+
+ul {
+    list-style-type: square;       
+    padding-left: 20px;            
+    font-size: 18px;                
+}
+ul li {
+    margin-bottom: 8px;            
+    transition: all 0.3s;          
+}
+ul li:hover {
+    color: #FAFD3A;                
+    background-color: #0d1321;   
+    transform: scale(1.05);        
+}
+
+ol {
+    list-style-type: lower-roman;  
+    padding-left: 25px;
+    font-size: 16px;
+}
+
+ol li {
+    margin-bottom: 6px;
+}
+
+dl dt {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+dl dd {
+    margin-left: 20px;        /* indentado respecto al dt */
+    font-size: 1em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* unir bordes en uno solo */
+    text-align: center;
+    border: 1px solid #0d1321; /* borde exterior de la tabla */
+}
+
+table th {
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #0d1321; /* borde alrededor de cada celda */
+}
+
+table td {
+    padding: 8px;
+    border: 1px solid #0d1321; 
+}
+caption {
+    font-weight: bold;
+    margin-top: 8px;
+    font-size: 2em;
+    font-style: italic;
+}
+
+
+
