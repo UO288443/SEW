@@ -1,0 +1,72 @@
+<!ELEMENT circuito (
+    nombre_circuito,
+    longitud_circuito,
+    anchura,
+    fecha_carrera_2025,
+    hora_carrera_españa,
+    numero_vueltas,
+    localidad_proxima,
+    pais,
+    patrocinador,
+    referencias_bibliograficas,
+    galeria_fotos,
+    galeria_videos,
+    origen_circuito,
+    puntos,
+    vencedor,
+    podio_2025
+)>
+
+<!ELEMENT nombre_circuito (#PCDATA)>
+
+<!ELEMENT longitud_circuito (#PCDATA)>
+<!ATTLIST longitud_circuito unidades CDATA #REQUIRED>
+
+<!ELEMENT anchura (#PCDATA)>
+<!ATTLIST anchura unidades CDATA #REQUIRED>
+
+<!ELEMENT fecha_carrera_2025 (#PCDATA)>
+<!ELEMENT hora_carrera_españa (#PCDATA)>
+<!ELEMENT numero_vueltas (#PCDATA)>
+<!ELEMENT localidad_proxima (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT patrocinador (#PCDATA)>
+
+<!ELEMENT referencias_bibliograficas (referencia+)>
+<!ELEMENT referencia (#PCDATA)>
+
+<!ELEMENT galeria_fotos (foto+)>
+<!ELEMENT foto (#PCDATA)>
+
+<!ELEMENT galeria_videos (video+)>
+<!ELEMENT video (#PCDATA)>
+
+<!ELEMENT origen_circuito (coordenadas)>
+<!ELEMENT coordenadas (
+    longitud,
+    latitud,
+    altitud
+)>
+
+<!ELEMENT longitud (#PCDATA)>
+
+<!ELEMENT latitud (#PCDATA)>
+
+<!ELEMENT altitud (#PCDATA)>
+
+<!ELEMENT puntos (punto+)>
+<!ELEMENT punto (distancia, coordenadas, sector)>
+
+<!ELEMENT distancia (#PCDATA)>
+<!ATTLIST distancia unidades CDATA #IMPLIED>
+
+<!ELEMENT sector (#PCDATA)>
+
+<!ELEMENT vencedor (nombre, tiempo)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tiempo (#PCDATA)>
+<!ATTLIST tiempo unidades CDATA #REQUIRED>
+
+<!ELEMENT podio_2025 (nombre_piloto+)>
+<!ELEMENT nombre_piloto (#PCDATA)>
+<!ATTLIST nombre_piloto posicion (1|2|3) #REQUIRED>
