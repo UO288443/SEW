@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="Termas de Río Hondo">
+    <name>Termas de Río Hondo</name>
+    <description>Termas de Río Hondo, Santiago del Estero, Argentina. Longitud: 4806m. Anchura: 16m. Carrera: 2025-03-16 18:00:00</description>
+    <Placemark>
+      <name>Origen</name>
+      <description>Punto de referencia del circuito</description>
+      <Point>
+        <coordinates>-27.510853113704,-64.91983812515592,263</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 000 m</name>
+      <description>Sector 0 · Distancia 000 m</description>
+      <Point>
+        <coordinates>-64.91983812515592,-27.510853113704,282.18</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 191 m</name>
+      <description>Sector 0 · Distancia 191 m</description>
+      <Point>
+        <coordinates>-64.92155964621332,-27.51006982798949,281.01</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 071 m</name>
+      <description>Sector 0 · Distancia 071 m</description>
+      <Point>
+        <coordinates>-64.92162949470273,-27.50943847910297,281.44</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 088 m</name>
+      <description>Sector 0 · Distancia 088 m</description>
+      <Point>
+        <coordinates>-64.92079253204619,-27.50915987029514,281.85</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 255 m</name>
+      <description>Sector 0 · Distancia 255 m</description>
+      <Point>
+        <coordinates>-64.91845931195053,-27.51014281746643,283.09</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 061 m</name>
+      <description>Sector 0 · Distancia 061 m</description>
+      <Point>
+        <coordinates>-64.91785488433564,-27.51002459858692,283.09</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 069 m</name>
+      <description>Sector 0 · Distancia 069 m</description>
+      <Point>
+        <coordinates>-64.9178264084283,-27.50940513171758,282.47</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 121 m</name>
+      <description>Sector 0 · Distancia 121 m</description>
+      <Point>
+        <coordinates>-64.91839777121366,-27.50844541010273,281.23</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 149 m</name>
+      <description>Sector 0 · Distancia 149 m</description>
+      <Point>
+        <coordinates>-64.91778933627489,-27.50721531033114,282.79</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 080 m</name>
+      <description>Sector 0 · Distancia 080 m</description>
+      <Point>
+        <coordinates>-64.91018664138286,-27.50216244006998,282.89</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 120 m</name>
+      <description>Sector 0 · Distancia 120 m</description>
+      <Point>
+        <coordinates>-64.90968218127391,-27.50226978786477,282.19</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 125 m</name>
+      <description>Sector 0 · Distancia 125 m</description>
+      <Point>
+        <coordinates>-64.90968790610451,-27.50283848489583,282.18</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 070 m</name>
+      <description>Sector 0 · Distancia 070 m</description>
+      <Point>
+        <coordinates>-64.91088521594035,-27.50396582841161,282.04</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 116 m</name>
+      <description>Sector 0 · Distancia 116 m</description>
+      <Point>
+        <coordinates>-64.91126375102654,-27.50504591571635,281.44</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 198 m</name>
+      <description>Sector 0 · Distancia 198 m</description>
+      <Point>
+        <coordinates>-64.90957332359486,-27.50840597306539,280.75</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 136 m</name>
+      <description>Sector 0 · Distancia 136 m</description>
+      <Point>
+        <coordinates>-64.90995562029859,-27.50887436576985,280.65</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 065 m</name>
+      <description>Sector 0 · Distancia 065 m</description>
+      <Point>
+        <coordinates>-64.91113879436895,-27.50879018050259,280.55</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 086 m</name>
+      <description>Sector 0 · Distancia 086 m</description>
+      <Point>
+        <coordinates>-64.9130170618525,-27.50675628843302,281.08</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 092 m</name>
+      <description>Sector 0 · Distancia 092 m</description>
+      <Point>
+        <coordinates>-64.91403948292111,-27.50720264576438,281.28</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 155 m</name>
+      <description>Sector 0 · Distancia 155 m</description>
+      <Point>
+        <coordinates>-64.91562699842854,-27.50744428861476,281.39</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 186 m</name>
+      <description>Sector 0 · Distancia 186 m</description>
+      <Point>
+        <coordinates>-64.91648098536569,-27.50831106460077,282.04</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 177 m</name>
+      <description>Sector 0 · Distancia 177 m</description>
+      <Point>
+        <coordinates>-64.91646103737112,-27.50913018150951,281.87</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 191 m</name>
+      <description>Sector 0 · Distancia 191 m</description>
+      <Point>
+        <coordinates>-64.91532685589605,-27.51115265900524,281.35</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 177 m</name>
+      <description>Sector 0 · Distancia 177 m</description>
+      <Point>
+        <coordinates>-64.91503841505897,-27.51254041255841,281.06</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 128 m</name>
+      <description>Sector 0 · Distancia 128 m</description>
+      <Point>
+        <coordinates>-64.915350446986,-27.51295194695938,281.02</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 135 m</name>
+      <description>Sector 0 · Distancia 135 m</description>
+      <Point>
+        <coordinates>-64.9158332393505,-27.51266618563733,281.02</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 195 m</name>
+      <description>Sector 0 · Distancia 195 m</description>
+      <Point>
+        <coordinates>-64.91614970636212,-27.51195585461852,281.60</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 181 m</name>
+      <description>Sector 0 · Distancia 181 m</description>
+      <Point>
+        <coordinates>-64.91967036891957,-27.51088640604251,281.64</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 076 m</name>
+      <description>Sector 0 · Distancia 076 m</description>
+      <Point>
+        <coordinates>-64.92140206,-27.51075676,281.29</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Trazado del circuito</name>
+      <description>Secuencia de puntos del recorrido</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-27.510853113704,-64.91983812515592,263
+-64.91983812515592,-27.510853113704,282.18
+-64.92155964621332,-27.51006982798949,281.01
+-64.92162949470273,-27.50943847910297,281.44
+-64.92079253204619,-27.50915987029514,281.85
+-64.91845931195053,-27.51014281746643,283.09
+-64.91785488433564,-27.51002459858692,283.09
+-64.9178264084283,-27.50940513171758,282.47
+-64.91839777121366,-27.50844541010273,281.23
+-64.91778933627489,-27.50721531033114,282.79
+-64.91018664138286,-27.50216244006998,282.89
+-64.90968218127391,-27.50226978786477,282.19
+-64.90968790610451,-27.50283848489583,282.18
+-64.91088521594035,-27.50396582841161,282.04
+-64.91126375102654,-27.50504591571635,281.44
+-64.90957332359486,-27.50840597306539,280.75
+-64.90995562029859,-27.50887436576985,280.65
+-64.91113879436895,-27.50879018050259,280.55
+-64.9130170618525,-27.50675628843302,281.08
+-64.91403948292111,-27.50720264576438,281.28
+-64.91562699842854,-27.50744428861476,281.39
+-64.91648098536569,-27.50831106460077,282.04
+-64.91646103737112,-27.50913018150951,281.87
+-64.91532685589605,-27.51115265900524,281.35
+-64.91503841505897,-27.51254041255841,281.06
+-64.915350446986,-27.51295194695938,281.02
+-64.9158332393505,-27.51266618563733,281.02
+-64.91614970636212,-27.51195585461852,281.60
+-64.91967036891957,-27.51088640604251,281.64
+-64.92140206,-27.51075676,281.29</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

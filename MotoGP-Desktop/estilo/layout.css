@@ -1,0 +1,120 @@
+/* Alfredo Jirout Cid - UO288443 */
+/* Archivo de estilos CSS para el sitio web MotoGP-Desktop */
+
+/* ===========================
+   ESTILOS GENERALES
+   =========================== */
+
+/* Especificidad: 1 */
+header {
+    display: flex; /* Advertencia: redefinición en @media → ajuste del layout en móviles */
+    justify-content: space-between; /* Advertencia: redefinición en @media → cambio de distribución */
+    align-items: center; /* Advertencia: redefinición en @media → centrado en móviles */
+    padding: 0.625em 1.25em;
+}
+
+/* Especificidad: 2 */
+header h1 {
+    margin: 0;
+}
+
+/* Especificidad: 2 */
+header nav {
+    display: flex; /* Advertencia: redefinición en @media → cambio a disposición vertical */
+    gap: 0.9375em;
+}
+
+/* Especificidad: 3 */
+header nav a {
+    text-decoration: none;
+    font-size: 1em;
+}
+
+/* Especificidad: 13 */
+header nav a:hover,
+header nav a.active {
+    text-decoration: underline;
+}
+
+/* Especificidad: 2 */
+header > button {
+    display: none; /* Advertencia: redefinición en @media → visible solo en móviles */
+    border: none;
+    background: none;
+    color: #FFFFFF; /* Advertencia: color de primer plano definido, fondo heredado */
+    cursor: pointer;
+    font: inherit;
+    font-size: 1rem;
+}
+
+/* Especificidad: 2 */
+body > div {
+    width: 100%;   /* Advertencia: redefinición en @media */
+    height: 500px; /* Advertencia: redefinición en @media */
+    margin-top: 1rem; /* Advertencia: redefinición en @media */
+}
+
+/* ===========================
+   RESPONSIVE (MÓVILES)
+   =========================== */
+
+@media (max-width: 768px) {
+
+    /* Especificidad: 1 */
+    header {
+        display: flex; /* Advertencia: redefinición → ajuste para móviles */
+        flex-direction: column;
+        align-items: center; /* Advertencia: redefinición */
+        justify-content: space-between; /* Advertencia: redefinición */
+        gap: 0.5rem;
+        flex-wrap: wrap;
+    }
+
+    /* Especificidad: 2 */
+    header > nav {
+        width: 100%;
+        margin-top: 0.5rem;
+        display: flex; /* Advertencia: redefinición */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Especificidad: 12 */
+    header > nav[data-open="false"] {
+        display: none; /* Advertencia: redefinición de display */
+    }
+
+    /* Especificidad: 3 */
+    header > nav > a {
+        display: block;
+        padding: 0.3rem 0;
+    }
+
+    /* Especificidad: 1 */
+    video, img, audio {
+        width: 50%;
+    }
+
+    /* Especificidad: 3 */
+    article h2 + img {
+        width: 100vw;
+        height: auto;
+        display: block;
+        object-fit: cover;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Especificidad: 2 */
+    body > div {
+        width: 100%; /* Advertencia: redefinición */
+        height: 40vh; /* Advertencia: redefinición */
+        margin: 0; /* Advertencia: redefinición */
+        padding: 0;
+    }
+
+    /* Especificidad: 2 */
+    header > button {
+        display: block; /* Advertencia: redefinición */
+    }
+}

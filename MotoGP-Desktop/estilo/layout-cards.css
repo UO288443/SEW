@@ -1,0 +1,49 @@
+/* Especificidad: 2 (main = 1, article = 1, :hover = 10) */
+main article:hover {
+    transform: scale(1.05);
+}
+/*especificidad 22*/
+main article[data-estado=volteada]:hover,
+main article[data-estado=revelada]:hover {
+    transform: rotateY(180deg) scale(1.05);
+}
+/* Especificidad: 1 */
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 1em;
+    row-gap: 2em; /* Advertencia (línea 9): redefinición posterior en @media
+                     → se vuelve a declarar más abajo para ajustar el diseño en pantallas pequeñas */
+    align-items: start;
+}
+
+/* Especificidad: 2 (main = 1, > h2 = 1) */
+main > h2,p {
+    grid-column: 1 / -1; /* Advertencia (línea 28): redefinición posterior en @media
+                            → se repite para asegurar el mismo comportamiento en pantallas pequeñas */
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+/* Especificidad: 1 para el media query, 
+   pero dentro se redefinen los mismos selectores main y main > h2
+   para adaptarlos a resoluciones menores */
+@media (max-width: 768px) {
+
+    /* Especificidad: 1 */
+    main {
+        grid-template-columns: repeat(2, 1fr); /* Advertencia (línea 22): redefinición
+                                                  → cambia el número de columnas a 2 para pantallas pequeñas */
+        grid-gap: 0.8em; /* Advertencia (línea 23): redefinición
+                            → ajusta el espacio entre columnas y filas */
+        row-gap: 1.5em; /* Advertencia (línea 24): redefinición
+                           → reduce la separación vertical entre filas */
+    }
+
+    /* Especificidad: 2 */
+    main > h2,p {
+        grid-column: 1 / -1; /* Advertencia (línea 28): redefinición
+                                → mantiene el mismo valor para garantizar que el título
+                                   siga ocupando todo el ancho del grid */
+    }
+}

@@ -1,0 +1,19 @@
+id_test,id_usuario,profesion,edad,genero,pericia_informatica,dispositivo,duracion_segundos,completado,comentarios_usuario,propuestas_mejora,valoracion
+1,1,Ingeniero informático,23,Masculino,Alta,Tableta,240,1,,,9
+2,1,Ingeniero informático,23,Masculino,Alta,Ordenador,131,1,,,8
+3,1,Ingeniero informático,23,Masculino,Alta,Telefono,239,1,,,6
+4,2,Administrativo,60,Masculino,Baja,Ordenador,405,1,,,6
+5,3,Estudiante,18,Masculino,Media,Telefono,123,1,,,8
+6,4,Estudiante,52,Masculino,Baja,Tableta,354,1,,,7
+7,5,Ingeniero informático,23,Masculino,Alta,Tableta,162,1,,,8
+8,5,Ingeniero informático,23,Masculino,Alta,Ordenador,220,1,,,9
+9,5,Ingeniero informático,23,Masculino,Alta,Telefono,179,1,,,7
+10,6,Estudiante,80,Femenino,Media,Ordenador,352,0,,,5
+11,7,Diseñador,34,Masculino,Alta,Telefono,275,1,,,9
+12,8,Diseñador,23,Masculino,Baja,Tableta,285,1,,,7
+13,9,Ingeniero informático,25,Masculino,Alta,Tableta,80,1,,,9
+14,9,Ingeniero informático,25,Masculino,Alta,Ordenador,102,1,,,8
+15,9,Ingeniero informático,25,Masculino,Alta,Telefono,162,1,,,6
+16,10,Operario,51,Femenino,Alta,Tableta,210,1,,,8
+17,11,Técnico,22,Masculino,Alta,Ordenador,77,1,,,6
+18,12,Diseñador,53,Femenino,Alta,Telefono,198,1,,,8

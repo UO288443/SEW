@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Circuito MotoGP-Desktop</title>
+    <meta name="author" content="Alfredo Jirout Cid" />
+    <meta name="description" content="Pagina del circuito de MotoGP-Desktop" />
+    <meta name="keywords" content="MotoGP, MotoGP-Desktop, circuito, pista" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="icon" type="image/png" href="multimedia/favicon.ico" />
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.css" rel="stylesheet" />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1><a href="index.html">MotoGP Desktop</a></h1>
+        <button type="button"
+                aria-expanded="false"
+                aria-label="Abrir menú de navegación">
+            ☰ Menú
+        </button>
+        <nav data-open="false">
+            <a href="index.html">Inicio</a>
+            <a href="piloto.html">Piloto</a>
+            <a class="active" href="circuito.html">Circuito</a>
+            <a href="meteorología.html">Meteorología</a>
+            <a href="clasificaciones.php">Clasificaciones</a>
+            <a href="juegos.html">Juegos</a>
+            <a href="ayuda.html">Ayuda</a>
+        </nav>
+    </header>
+
+    <p>Usted se encuentra en: [<a href="index.html" title="inicio">Inicio</a>] >> [Circuito]</p>
+
+    <label>Sube tu SVG:</label>
+    <input type="file">
+    <br>
+    <label>Sube tu KML:</label>
+    <input type="file">
+
+    <div></div>
+
+    <script src="js/circuito.js"></script>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.js"></script>
+
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoidW8yODg0NDMiLCJhIjoiY21pNjdlNWU4MDYzbjJrczlwaWxtZ200bSJ9.mK8gwX0DtklEJiYQ5NFF8Q';
+
+        const contenedorMapa = document.querySelector("body > div");
+
+        window.map = new mapboxgl.Map({
+            container: contenedorMapa,
+            style: 'mapbox://styles/mapbox/streets-v12',
+            center: [-3.7038, 40.4168],
+            zoom: 10
+        });
+
+    </script>
+<script src="js/menu.js"></script>
+
+</body>
+</html>

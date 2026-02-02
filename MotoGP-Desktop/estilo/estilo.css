@@ -1,0 +1,146 @@
+/* Alfredo Jirout Cid - UO288443 */
+/* Archivo de estilos CSS para el sitio web MotoGP-Desktop */ 
+/* Estilos generales 
+    #1f2231
+    #01dee6
+    #0d1321
+    #FAFD3A
+*/
+/* Especificidad: 1 */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #01dee6;
+    color: #1f2231;
+}
+
+/* Especificidad: 1 */
+/*  hay background-color y no hay color → el color se hereda de la cascada */
+header {
+    background-color: #0d1321;
+}
+
+/* Especificidad: 2 */
+/* hay color y no hay background-color → el fondo se hereda de la cascada */
+header a {
+    color: #FAFD3A;
+    text-decoration-line: none;
+}
+
+/* Especificidad: 10 */
+/* hay color y no hay background-color → el fondo se hereda de la cascada */
+.active {
+    color: #FFFFFF;
+}
+
+/* Especificidad: 2 */
+header + p {
+    font-size: 0.9em;
+}
+
+/* Especificidad: 1 (aplica a cada h1–h6) */
+h1, h2, h3, h4, h5, h6 {
+    border: 0.125em solid black;
+    padding: 0.3em 0.6em;
+    border-radius: 0.5em;
+    display: table;
+}
+
+/* Especificidad: 11 (a = 1, [attr] = 10) */
+/* hay color y no hay background-color → el fondo se hereda de la cascada */
+a[href^="http"] {
+    color: #1f2231;
+    font-style: italic;
+}
+
+/* Especificidad: 21 (a = 1, [attr] = 10, :hover = 10) */
+a[href^="http"]:hover {
+    background-color: #0d1321;
+    color: #FAFD3A;
+    text-decoration: none;
+    font-style: normal;
+}
+
+/* Especificidad: 1 */
+ul {
+    list-style-type: square;
+    padding-left: 1.25em;
+    font-size: 1.125em;
+}
+
+/* Especificidad: 2 (ul + li = 1 + 1) */
+ul li {
+    margin-bottom: 0.5em;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Especificidad: 12 (ul = 1, li = 1, :hover = 10) */
+ul li:hover {
+    color: #FAFD3A;
+    background-color: #0d1321;
+}
+
+/* Especificidad: 22 (ul = 1, li = 1, a = 1, :hover = 10, combinados) */
+ul li a:hover {
+    color: #FAFD3A;
+    background-color: #0d1321;
+}
+
+/* Especificidad: 1 */
+ol {
+    padding-left: 1.5em;
+    font-size: 1em;
+}
+
+/* Especificidad: 2 (ol + li) */
+ol li {
+    margin-bottom: 0.375em;
+}
+
+/* Especificidad: 2 (dl + dt) */
+dl dt {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Especificidad: 2 (dl + dd) */
+dl dd {
+    margin-left: 1.25em;
+    font-size: 1em;
+}
+
+/* Especificidad: 1 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    border: 0.0625em solid #0d1321;
+    table-layout: fixed;
+}
+/** Especificidad: 1 
+    Redefinición de overflow-wrap intencionada.
+*/
+th, td {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+/* Especificidad: 2 (table + th) */
+table th {
+    font-weight: bold;
+    padding: 0.625em;
+    border: 0.0625em solid #0d1321;
+}
+
+/* Especificidad: 2 (table + td) */
+table td {
+    padding: 0.5em;
+    border: 0.0625em solid #0d1321;
+}
+
+/* Especificidad: 1 */
+caption {
+    font-weight: bold;
+    margin-top: 0.5em;
+    font-size: 2em;
+    font-style: italic;
+}
+

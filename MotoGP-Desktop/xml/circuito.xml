@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE circuito SYSTEM "circuito.dtd">
+<circuito>
+    <nombre_circuito>Termas de Río Hondo</nombre_circuito>    
+    <longitud_circuito unidades="m">4806</longitud_circuito>
+    <anchura unidades="m">16</anchura>
+    <fecha_carrera_2025>16-3-2025</fecha_carrera_2025>
+    <hora_carrera_españa>18:00</hora_carrera_españa>
+    <numero_vueltas>25</numero_vueltas>
+    <localidad_proxima>Termas de Río Hondo, Santiago del Estero</localidad_proxima>
+    <pais>Argentina</pais>
+    <patrocinador>Michelin</patrocinador>
+    <referencias_bibliograficas>
+        <referencia>https://www.racingcircuits.info/south-america/argentina/autodromo-termas-de-rio-hondo.html</referencia>
+        <referencia>https://en.wikipedia.org/wiki/Aut%C3%B3dromo_Termas_de_R%C3%ADo_Hondo</referencia>
+        <referencia>https://autodromotermas.com/</referencia>
+    </referencias_bibliograficas>
+    <galeria_fotos>
+        <foto>./multimedia/circuito.jpg</foto>
+        <foto>./multimedia/vista_dron.jpg</foto>
+    </galeria_fotos>
+    <galeria_videos>
+        <video>./multimedia/video.mp4</video>
+    </galeria_videos>
+    <origen_circuito>
+        <coordenadas>
+            <longitud>-27.5058</longitud>
+            <latitud>-64.9144</latitud>
+            <altitud>263</altitud> <!-- Ajustado -->
+        </coordenadas>
+    </origen_circuito>
+    <puntos>
+    <punto>
+        <distancia>0.000</distancia>
+        <coordenadas>
+            <longitud>-64.914472</longitud>
+            <latitud>-27.505861</latitud>
+            <altitud>265</altitud> <!-- Ajustado -->
+        </coordenadas>
+        <sector>1</sector>
+    </punto>
+
+    <!-- Sector 1: start -> curvas 1..4 -->
+    <punto>
+        <distancia>136.939</distancia>
+        <coordenadas>
+            <longitud>-64.915000</longitud>
+            <latitud>-27.507000</latitud>
+            <altitud>267</altitud> <!-- Ajustado -->
+        </coordenadas>
+        <sector>1</sector>
+    </punto>
+    <punto>
+        <distancia>267.065</distancia>
+        <coordenadas>
+            <longitud>-64.913700</longitud>
+            <latitud>-27.506800</latitud>
+            <altitud>264</altitud> <!-- Ajustado -->
+        </coordenadas>
+        <sector>1</sector>
+    </punto>
+    <punto>
+        <distancia>414.662</distancia>
+        <coordenadas>
+            <longitud>-64.912600</longitud>
+            <latitud>-27.505900</latitud>
+            <altitud>266</altitud> <!-- Ajustado -->
+        </coordenadas>
+        <sector>1</sector>
+    </punto>
+    <punto>
+        <distancia>543.181</distancia>
+        <coordenadas>
+            <longitud>-64.912200</longitud>
+            <latitud>-27.504800</latitud>
+            <altitud>262</altitud> <!-- Ajustado -->
+        </coordenadas>
+        <sector>1</sector>
+    </punto>
+
+    <!-- Sector 2: curvas 5..10 -->
+    <punto>
+        <distancia>1247.103</distancia>
+        <coordenadas>
+            <longitud>-64.911500</longitud>
+            <latitud>-27.498500</latitud>
+            <altitud>268</altitud> <!-- Ajustado -->
+        </coordenadas>
+        <sector>2</sector>
+    </punto>
+    <punto>
+        <distancia>1509.137</distancia>
+        <coordenadas>
+            <longitud>-64.909800</longitud>
+            <latitud>-27.495800</latitud>
+            <altitud>263</altitud> <!-- Ajustado -->
+        </coordenadas>
+        <sector>2</sector>
+    </punto>
+    <punto>
+        <distancia>1873.183</distancia>
+        <coordenadas>
+            <longitud>-64.905800</longitud>
+            <latitud>-27.501000</latitud>
+            <altitud>266</altitud> <!-- Ajustado -->
+        </coordenadas>
+        <sector>2</sector>
+    </punto>
+    <punto>
+        <distancia>2009.050</distancia>
+        <coordenadas>
+            <longitud>-64.906500</longitud>
+            <latitud>-27.503000</latitud>
+            <altitud>264</altitud> <!-- Ajustado -->
+        </coordenadas>
+        <sector>2</sector>
+    </punto>
+    <punto>
+        <distancia>2167.323</distancia>
+        <coordenadas>
+            <longitud>-64.907800</longitud>
+            <latitud>-27.507200</latitud>
+            <altitud>267</altitud> <!-- Ajustado -->
+        </coordenadas>
+        <sector>2</sector>
+    </punto>
+    <punto>
+        <distancia>2338.560</distancia>
+        <coordenadas>
+            <longitud>-64.908500</longitud>
+            <latitud>-27.508500</latitud>
+            <altitud>265</altitud> <!-- Ajustado -->
+        </coordenadas>
+        <sector>2</sector>
+    </punto>
+
+    <!-- Sector 3: curvas 11..14 -> final -->
+    <punto>
+        <distancia>2718.777</distancia>
+        <coordenadas>
+            <longitud>-64.910500</longitud>
+            <latitud>-27.511000</latitud>
+            <altitud>263</altitud> <!-- Ajustado -->
+        </coordenadas>
+        <sector>3</sector>
+    </punto>
+    <punto>
+        <distancia>3078.355</distancia>
+        <coordenadas>
+            <longitud>-64.913500</longitud>
+            <latitud>-27.509500</latitud>
+            <altitud>268</altitud> <!-- Ajustado -->
+        </coordenadas>
+        <sector>3</sector>
+    </punto>
+    <punto>
+        <distancia>3266.933</distancia>
+        <coordenadas>
+            <longitud>-64.914200</longitud>
+            <latitud>-27.508000</latitud>
+            <altitud>264</altitud> <!-- Ajustado -->
+        </coordenadas>
+        <sector>3</sector>
+    </punto>
+    <punto>
+        <distancia>3400.127</distancia>
+        <coordenadas>
+            <longitud>-64.914800</longitud>
+            <latitud>-27.506500</latitud>
+            <altitud>266</altitud> <!-- Ajustado -->
+        </coordenadas>
+        <sector>3</sector>
+    </punto>
+
+    <punto>
+        <distancia>4284.383</distancia>
+        <coordenadas>
+            <longitud>-64.914472</longitud>
+            <latitud>-27.505861</latitud>
+            <altitud>265</altitud> <!-- Ajustado -->
+        </coordenadas>
+        <sector>3</sector>
+    </punto>
+    </puntos>
+
+
+    <vencedor>
+        <nombre>Marc Márquez</nombre>
+        <tiempo unidades="h">0:41:11.1</tiempo>
+    </vencedor>
+
+    <podio_2025>
+        <nombre_piloto posicion="1">Marc Márquez</nombre_piloto>
+        <nombre_piloto posicion="2">Álex Márquez</nombre_piloto>
+        <nombre_piloto posicion="3">Franco Morbidelli</nombre_piloto>
+    </podio_2025>
+</circuito>
